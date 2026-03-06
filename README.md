@@ -12,17 +12,20 @@ This repository is built upon the [MobileViG](https://github.com/SLDGroup/Mobile
 
 | Model | Params (M) | MACs (G) | Top-1 Acc (%) | Checkpoint |
 | :--- | :---: | :---: | :---: | :---: |
-| **GeoViG-Ti** | 3.5 | 0.9 | 75.2 | [Link soon] |
-| **GeoViG-S** | 5.0 | 1.2 | 77.5 | [Link soon] |
-| **GeoViG-M** | 10.3 | 2.2 | 80.7 | [Link soon] |
-| **GeoViG-B** | 19.7 | 4.5 | 82.4 | [Link soon] |
+| **GeoViG-Ti** | 3.5 | 0.9 | 75.2 | [HF](https://huggingface.co/OmarAlasqa/GeoViG/blob/main/pth/geovig_ti_5e4_8G_300_75_22/checkpoint.pth) |
+| **GeoViG-S** | 5.0 | 1.2 | 77.5 | [HF](https://huggingface.co/OmarAlasqa/GeoViG/blob/main/pth/geovig_s_5e4_8G_300_77_48/checkpoint.pth) |
+| **GeoViG-M** | 10.3 | 2.2 | 80.7 | [HF](https://huggingface.co/OmarAlasqa/GeoViG/blob/main/pth/geovig_m_5e4_8G_300_80_70/checkpoint.pth) |
+| **GeoViG-B** | 19.7 | 4.5 | 82.4 | [HF](https://huggingface.co/OmarAlasqa/GeoViG/blob/main/pth/geovig_b_5e4_8G_300_82_38/checkpoint.pth) |
+
+For CoreML checkpoint, please check this [Link](https://huggingface.co/OmarAlasqa/GeoViG/tree/main/CoreML)
+For IPA chechpoints, please check this [Link](https://huggingface.co/OmarAlasqa/GeoViG/tree/main/IPA)
 
 ### Object Detection & Instance Segmentation (COCO 2017)
 
 | Backbone | Params (M) | Box AP | Mask AP | Checkpoint |
 | :--- | :---: | :---: | :---: | :---: |
-| **GeoViG-M** | 10.3 | 40.7 | 37.7 | [Link soon] |
-| **GeoViG-B** | 19.7 | 42.5 | 38.9 | [Link soon] |
+| **GeoViG-M** | 10.3 | 40.7 | 37.7 | [HF](https://huggingface.co/OmarAlasqa/GeoViG/blob/main/coco_det_seg_pth/geovig_m_det_seg/epoch_12.pth) |
+| **GeoViG-B** | 19.7 | 42.5 | 38.9 | [HF](https://huggingface.co/OmarAlasqa/GeoViG/blob/main/coco_det_seg_pth/geovig_b_det_seg/epoch_12.pth) |
 
 ### Medical Image Segmentation
 
@@ -30,13 +33,13 @@ This repository is built upon the [MobileViG](https://github.com/SLDGroup/Mobile
 
 | Backbone | mAP | Dice | IoU | Hausdorff Dist. | Checkpoint |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **GeoViG-M** | 0.990 | 0.945 | 0.909 | 12.94 | [Link soon] |
+| **GeoViG-M** | 0.990 | 0.945 | 0.909 | 12.94 | [HF](https://huggingface.co/OmarAlasqa/GeoViG/blob/main/medical/kvasir_geovig_m/checkpoint.pth) |
 
 **Data Science Bowl 2018 (Nuclei Segmentation)**
 
 | Backbone | mAP | Dice | IoU | Hausdorff Dist. | Checkpoint |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **GeoViG-M** | 0.859 | 0.908 | 0.839 | 5.19 | [Link soon] |
+| **GeoViG-M** | 0.859 | 0.908 | 0.839 | 5.19 | [HF](https://huggingface.co/OmarAlasqa/GeoViG/blob/main/medical/dsb_geovig_m/checkpoint.pth) |
 
 
 ## Directory Structure
